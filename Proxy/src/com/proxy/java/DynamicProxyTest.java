@@ -13,12 +13,10 @@ interface Human{
 }
 //被代理类
 class SuperMan implements Human{
-
     @Override
     public String getBelief() {
         return "I believe I can fly";
     }
-
     @Override
     public void eat(String food) {
         System.out.println("I like eating " + food);
